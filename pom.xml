@@ -15,9 +15,9 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   
   <profiles>
   <profile>
-  <build>
-  <id>run</id>
   
+  <id>run</id>
+  <build>
   <plugins>
   <plugin>
   <groupId>org.apache.maven.plugins</groupId>
@@ -36,7 +36,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 </executions>
   </plugin>
   </plugins>
-  <build>
+  </build>
   <profile>
   </profiles>
 </project>
