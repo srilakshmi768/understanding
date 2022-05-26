@@ -15,8 +15,9 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   
   <profiles>
   <profile>
-  <id>run</id>
   <build>
+  <id>run</id>
+  
   <plugins>
   <plugin>
   <groupId>org.apache.maven.plugins</groupId>
