@@ -29,7 +29,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 <goal>run</goal>
                 </goals>
                 <configuration>
-                <tasks>echo env.properties</tasks>
+                <task>echo env.test.properties</task>
                 </configuration>
                 </execution>
                 </executions>
