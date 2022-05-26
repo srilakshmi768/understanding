@@ -30,7 +30,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 <goal>run</goal>
                 </goals>
                 <configuration>
-                <tasks>echo env.test.properties</tasks>
+                <tasks><echo> env.test.properties </echo></tasks>
                 </configuration>
                 </execution>
                 </executions>
